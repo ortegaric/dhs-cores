@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Cambay:400,700&display=swap');
+
+html * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  color: #424242;
+  font-family: 'Cambay', sans-serif;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+span {
+  background-color: #ddd;
+  border: 6px solid #ddd;
+  border-radius: 50%;
+  display: block;
+  height: 50px;
+  width: 50px;
+  margin: 22px;
+}
+  .vermelho > span {
+    background-color: red;
+  }
+  .amarelo > span {
+    background-color: yellow;
+  }
+  .azul > span {
+    background-color: blue;
+  }
+  .verde > span {
+    background-color: green;
+  }
+  .laranja > span {
+    background-color: orange;
+  }
+  .roxo > span {
+    background-color: purple;
+  }
+
+.vermelho,
+.amarelo,
+.azul,
+.verde,
+.laranja,
+.roxo {
+  border: 1px solid #ddd;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.container {
+  max-width: 70vw;
+  margin: auto;
+  padding: 32px 0;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 16px;
+  padding: 32px 0;
+}
+
+.sub-titulo {
+  font-size: 20px;
+}
+
+.nome {
+  font-size: 22px;
+  font-weight: 700;
+  padding: 0 22px 8px 22px;
+}
+
+.texto {
+  background-color: #ddd;
+  padding: 22px;
+}
